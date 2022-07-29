@@ -1,0 +1,83 @@
+.magazine__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.magazine__box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 460px;
+          flex: 0 1 460px;
+  margin: 0 10px;
+}
+
+.magazine__box img {
+  width: 100%;
+}
+
+.magazine__text-box {
+  padding-left: 60px;
+}
+
+.magazine__subtitle {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #1D1F2E;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.magazine__title {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  color: #1D1F2E;
+  margin-bottom: 15px;
+}
+
+.magazine__descr {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(29, 31, 46, 0.7);
+  margin-bottom: 25px;
+}
+
+.magazine__btn {
+  background: #1D1F2E;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.magazine__btn:hover {
+  background: #555;
+  color: #fff;
+}
+
+.magazine__btn:active {
+  background: #777;
+  color: #fff;
+}
